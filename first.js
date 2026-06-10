@@ -1,3 +1,3 @@
 let str = "JavaScript is Awesome";
 
-console.log(str.toUpperCase())
+console.log(str.toLowerCase())
