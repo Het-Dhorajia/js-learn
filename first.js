@@ -1,7 +1,8 @@
-sum = 1;
+sum = 0;
 
-for(let i=1 ; i <= 10 ; i++){
-    sum = i*5
-    console.log("sum= " , sum);
+for(let i=1 ; i <= 50 ; i++){
+   if ( i % 3 === 0 ){
+    console.log(i);
+   }
 }
 
