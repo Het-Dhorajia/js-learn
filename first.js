@@ -1,7 +1,3 @@
-let prices = [100, 200, 300, 400];
-
-for (let i = 0; i < prices.length; i++) {
-    prices[i] = prices[i] * 0.9;
-}
-
-console.log(prices);
+compnies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+compnies.push("Amazon"); 
+console.log(compnies);
