@@ -1,11 +1,7 @@
-marks = [85 , 97 , 44 , 37  , 76 ,  60 ]
-let sum = 0 ;
+let prices = [100, 200, 300, 400];
 
-console.log(marks) ; 
-
-for (i = 0 ; i < Array.length ; i++){
-    sum+= marks[i] 
+for (let i = 0; i < prices.length; i++) {
+    prices[i] = prices[i] * 0.9;
 }
 
-    avg = sum / Array.length
-    console.log("avg = " , avg)
+console.log(prices);
