@@ -1,5 +1,3 @@
-user = prompt("enter a fullname");
+let str = "JavaScript is Awesome";
 
-finalname = "@" + user + user.length ; 
-
-console.log(finalname);
+console.log(str.length)
