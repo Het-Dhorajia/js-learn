@@ -1,8 +1,7 @@
-sum = 0;
+sum = 1;
 
-for(let i=1 ; i <= 100 ; i++){
-    sum += i
-    
+for(let i=1 ; i <= 10 ; i++){
+    sum = i*5
+    console.log("sum= " , sum);
 }
 
-console.log(sum)
