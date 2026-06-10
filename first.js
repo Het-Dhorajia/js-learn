@@ -1,4 +1,4 @@
-let str = "JavaScript is Awesome";
+let str = " JavaScript is Awesome   ";
 
 
-console.log(str.replace("JavaScript" , "Python" ));
+console.log(str.trim());
