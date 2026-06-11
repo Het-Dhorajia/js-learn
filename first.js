@@ -1,16 +1,4 @@
-let n = Number(prompt("Enter a number:"));
+let para = document.createElement("h2");
+para.innerText = "I am a new paragraph";
 
-let arr = [];
-
-for (let i = 1; i <= n; i++) {
-    arr.push(i);
-}
-
-console.log(arr);   
-
-const initialValue = 1; 
-const sumWithInitial = arr.reduce(
-    (accumulator , currentValue) => accumulator * currentValue , initialValue , );
-
-
-    console.log(sumWithInitial);
+document.body.append(para);
