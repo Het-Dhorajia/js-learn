@@ -1,17 +1,7 @@
-function countVowels(str) {
-    let count = 0;
+let numbers = [12, 45, 8, 67, 23, 89, 34, 56, 91, 15];
 
-    for (let i = 0; i < str.length; i++) {
-        let ch = str[i].toLowerCase();
+numbers.forEach((value, index) => {
+    numbers[index] = value ** 2;
+});
 
-        if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
-            count++;
-        }
-    }
-
-    return count;
-}
-
-
-let vowels = countVowels("I am Het Dhorajia");
-console.log(vowels);
+console.log(numbers);
