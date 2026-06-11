@@ -1,7 +1,16 @@
-let marks = [78, 92, 65, 88, 95, 73, 99, 84, 91, 67, 100, 56, 89, 93, 76];
+let n = Number(prompt("Enter a number:"));
 
-let newMarks = marks.filter((mark) => {
-    return mark>= 90;
-})
+let arr = [];
 
-console.log(newMarks);
+for (let i = 1; i <= n; i++) {
+    arr.push(i);
+}
+
+console.log(arr);   
+
+const initialValue = 1; 
+const sumWithInitial = arr.reduce(
+    (accumulator , currentValue) => accumulator * currentValue , initialValue , );
+
+
+    console.log(sumWithInitial);
