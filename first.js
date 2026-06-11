@@ -1,7 +1,5 @@
-let btn = document.createElement("button");
-btn.innerText = "Click Me";
+let heading = document.createElement("h1");
 
-document.body.prepend(btn);
+heading.innerText = "het"; 
 
-btn.style.backgroundColor = "red";
-btn.style.color = "white";
+document.body.append(heading);
