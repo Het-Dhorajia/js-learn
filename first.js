@@ -1,7 +1,7 @@
-let numbers = [12, 45, 8, 67, 23, 89, 34, 56, 91, 15];
+let marks = [78, 92, 65, 88, 95, 73, 99, 84, 91, 67, 100, 56, 89, 93, 76];
 
-numbers.forEach((value, index) => {
-    numbers[index] = value ** 2;
-});
+let newMarks = marks.filter((mark) => {
+    return mark>= 90;
+})
 
-console.log(numbers);
+console.log(newMarks);
