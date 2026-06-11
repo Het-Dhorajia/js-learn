@@ -1,4 +1,7 @@
-let para = document.createElement("h2");
-para.innerText = "I am a new paragraph";
+let btn = document.createElement("button");
+btn.innerText = "Click Me";
 
-document.body.append(para);
+document.body.prepend(btn);
+
+btn.style.backgroundColor = "red";
+btn.style.color = "white";
