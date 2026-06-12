@@ -1,5 +1,7 @@
-let btn = document.querySelector("#btn");
+let divs = document.querySelector("div");
 
-btn.addEventListener("click", function () {
-    document.body.style.display = "none";
-});
+divs.addEventListener("mouseover", function(){
+    divs.style.backgroundColor = "blue";
+
+})
+
