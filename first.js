@@ -1,5 +1,5 @@
-let divs = document.querySelectorAll("div");
+let divs = document.querySelector("div");
 
-divs[0].innerText = "Box1";
-divs[1].innerText = "Box2";
-divs[2].innerText = "Box3";
+console.log(divs.innerHTML );
+
+
