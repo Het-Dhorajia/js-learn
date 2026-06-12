@@ -1,3 +1,3 @@
-let divs = document.querySelector("div");
+let para = document.querySelector("p");
 
-console.log(divs.tagName);
+console.log(para.textContent);
