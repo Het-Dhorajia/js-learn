@@ -1,3 +1,3 @@
-let heading = document.querySelector("h2");
+let divs = document.querySelector("div");
 
-heading.style.color = "blue";
+divs.style.backgroundColor = "blue";
