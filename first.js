@@ -1,5 +1,3 @@
-let link = document.querySelector("a");
+let link = document.querySelector("#myLink");
 
-let attr = link.getAttribute("id");
-
-console.log(attr);
+link.setAttribute("href", "https://youtube.com");
