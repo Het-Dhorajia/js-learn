@@ -1,9 +1,5 @@
-let div1 = document.querySelector("div");
+let order = document.querySelector("li");
 
-div1.innerHTML = `
-<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ul>`
-;
+console.log(order.tagName);
+
+
