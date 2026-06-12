@@ -1,3 +1,5 @@
-let div1 = document.querySelector("div");
+let link = document.querySelector("a");
 
-console.log(div1.innerHTML);
+let attr = link.getAttribute("id");
+
+console.log(attr);
