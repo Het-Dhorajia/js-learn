@@ -1,11 +1,7 @@
-let para1 = document.createElement("p");
-let para2 = document.createElement("p");
-let para3 = document.createElement("p");
+// let heading = document.querySelector("h2");
 
-para1.innerText = "Paragraph 1";
-para2.innerText = "Paragraph 2";
-para3.innerText = "Paragraph 3";
+// heading.innertext += "From Het";
 
-document.body.append(para1);
-document.body.append(para2);
-document.body.append(para3);
+let heading = document.querySelector("h2");
+
+heading.innerText += " From Het";
