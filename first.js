@@ -1,13 +1,27 @@
-let list1 = document.createElement("ul");
+let divs = document.querySelector("div");
 
-list1.innerHTML += "<li>this is list1</li>";
-let list1_show = list1.innerHTML += "<li>this is 2nd line</li>";
+let heading = document.createElement("h1");
 
-document.body.prepend(list1);
+heading.innerHTML = "<h1>this is heading before div</h1>";
 
-let list2 = document.createElement("ul");
+document.body.prepend(heading);
 
-list2.innerHTML += "<li>this is list2</li>";
-let list2_show = list2.innerHTML += "<li>this is 2nd line</li>";
+let para = document.createElement("p");
 
-document.body.append(list2);
+para.innerHTML = "<p>this is para</p>";
+
+divs.prepend(para)
+
+let btn = document.createElement("button");
+
+btn.innerHTML = "<button>click here!</button>";
+
+divs.append(btn);
+
+let line = document.createElement("hr");
+
+btn.innerHTML = "<hr></hr>";
+
+document.body.append(line); 
+
+btn.remove();
