@@ -1,7 +1,9 @@
-let divs = document.querySelector("div");
+let div = document.querySelector("div");
 
-divs.addEventListener("mouseover", function(){
-    divs.style.backgroundColor = "blue";
+document.addEventListener("keydown", function (event) {
+    console.log(event.key); // check key is detected
 
-})
-
+    if (event.key === "ArrowUp") {
+        div.style.backgroundColor = "blue";
+    }
+});
