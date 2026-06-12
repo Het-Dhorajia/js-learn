@@ -1,7 +1,7 @@
-// let heading = document.querySelector("h2");
+let divs = document.querySelectorAll(".box");
 
-// heading.innertext += "From Het";
+divs[0].innerText = "box1";
+divs[1].innerText = "box2";
+divs[2].innerText = "box3";
 
-let heading = document.querySelector("h2");
 
-heading.innerText += " From Het";
