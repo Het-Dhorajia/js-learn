@@ -1,7 +1,8 @@
-let divs = document.querySelectorAll(".box");
+let div1 = document.querySelector("div");
 
-divs[0].innerText = "box1";
-divs[1].innerText = "box2";
-divs[2].innerText = "box3";
+div1.innerHTML = "<h1>hii this is heading</h1>";
+
+div1.innerHTML += "<p>hii this is paragraph</p>";
+
 
 
