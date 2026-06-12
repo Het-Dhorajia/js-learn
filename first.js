@@ -1,3 +1,3 @@
-let buttons = document.querySelector("button");
+let divs = document.querySelector("div");
 
-// buttons.style.visibility = "hidden";
+divs.style.border = "5px solid black";
