@@ -1,6 +1,7 @@
-let list = document.querySelector("ul");
+let divs = document.createElement("div");
 
-list.innerHTML += "<li>this is a list</li>";
-list.innerHTML += "<li>this is a list2</li>";
+divs.innerText = "this is a notification";
 
-console.log(list.innerHTML);
+document.body.prepend(divs);
+
+document.body.remove(divs);
