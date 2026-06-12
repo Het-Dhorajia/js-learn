@@ -1,3 +1,5 @@
-let divs = document.querySelector("div");
+let para = document.createElement("p");
 
-divs.style.border = "5px solid black";
+para.innerText = "this is paragraph";
+
+para.append("p");
