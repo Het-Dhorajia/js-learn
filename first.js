@@ -1,3 +1,3 @@
-let heading = document.querySelector("h2");
+let div1 = document.querySelector("div");
 
-heading.innerHTML += " version 2";
+console.log(div1.innerHTML);
