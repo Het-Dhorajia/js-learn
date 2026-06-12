@@ -1,5 +1,3 @@
 let divs = document.querySelector("div");
 
-console.log(divs.innerHTML );
-
-
+divs.innerHTML = "<h1>this is heading</h1>"
