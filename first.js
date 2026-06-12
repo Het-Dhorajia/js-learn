@@ -1,3 +1,3 @@
-let divs = document.querySelector("div");
+let buttons = document.querySelector("button");
 
-divs.style.fontSize = "22px";
+// buttons.style.visibility = "hidden";
