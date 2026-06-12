@@ -1,3 +1,3 @@
-let para = document.querySelector("p");
+let heading = document.querySelector("h2");
 
-console.log(para.textContent);
+heading.innerHTML += " version 2";
