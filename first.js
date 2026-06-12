@@ -1,5 +1,5 @@
-let order = document.querySelector("li");
+let divs = document.querySelectorAll("div");
 
-console.log(order.tagName);
-
-
+divs[0].innerText = "Box1";
+divs[1].innerText = "Box2";
+divs[2].innerText = "Box3";
