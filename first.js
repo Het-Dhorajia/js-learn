@@ -1,3 +1,3 @@
-let link = document.querySelector("#myLink");
+let heading = document.querySelector("h2");
 
-link.setAttribute("href", "https://youtube.com");
+heading.style.color = "blue";
