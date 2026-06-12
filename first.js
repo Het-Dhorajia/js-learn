@@ -1,5 +1,5 @@
-let para = document.createElement("p");
+let btn = document.createElement("button");
 
-para.innerText = "this is paragraph";
+btn.innerText = "this is a button";
 
-document.body.append(para);
+document.body.append(btn);
