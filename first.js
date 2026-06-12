@@ -1,5 +1,6 @@
-let btn = document.createElement("button");
+let list = document.querySelector("ul");
 
-btn.innerText = "this is a button";
+list.innerHTML += "<li>this is a list</li>";
+list.innerHTML += "<li>this is a list2</li>";
 
-document.body.append(btn);
+console.log(list.innerHTML);
