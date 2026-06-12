@@ -1,3 +1,9 @@
-let para = document.querySelector("p");
+let div1 = document.querySelector("div");
 
-para.innerHTML = "<b>javascript</b>";
+div1.innerHTML = `
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>`
+;
